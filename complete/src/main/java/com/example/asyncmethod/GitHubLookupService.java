@@ -8,7 +8,13 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.concurrent.CompletableFuture;
-
+/**
+ * @Description:
+ * @Author: XiaoShuMu
+ * @Date: 2021/12/3
+ * @Version 1.0
+ * @Blog https://www.cnblogs.com/WLCYSYS/
+ */
 @Service
 public class GitHubLookupService {
 
