@@ -8,7 +8,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import java.util.concurrent.Executor;
 /**
- * @Description:
+ * @Description: Creating Asynchronous Methods
  * @Author: XiaoShuMu
  * @Date: 2021/12/3
  * @Version 1.0
@@ -38,7 +38,7 @@ public class AsyncMethodApplication {
 		//最大核心线程
 		executor.setMaxPoolSize(3);
 		//队列的容量
-		executor.setQueueCapacity(1);
+		executor.setQueueCapacity(2);
 		//线程前缀名称
 		executor.setThreadNamePrefix("GithubLookup-");
 
