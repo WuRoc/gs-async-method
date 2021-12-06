@@ -41,6 +41,7 @@ public class GithubLookupService {
 
         logger.info("Looking up " + user);
 
+        //https://api.github.com/users/CloudFoundry
         String url = String.format("https://api.github.com/users/%s", user);
 
         User results = restTemplate.getForObject(url, User.class);
